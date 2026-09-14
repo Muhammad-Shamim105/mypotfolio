@@ -150,6 +150,31 @@ header {
     color: #020617;
 }
 
+/* =========================
+   Profile Picture
+========================= */
+
+.hero-image {
+    width: 260px;
+    height: 260px;
+    flex-shrink: 0;
+}
+
+.hero-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 5px solid #38bdf8;
+    box-shadow: 0 15px 40px rgba(0, 0, 0, 0.4);
+    transition: 0.3s;
+}
+
+.hero-image img:hover {
+    transform: scale(1.05);
+}
+
+
 
 /* =========================
    Hero Code Card
